@@ -8,6 +8,7 @@
     <router-link to="/contact">Contact</router-link>
   </nav>
   <router-view/>
+  <Footer/>
 </template>
 
 <style>
@@ -32,3 +33,12 @@ nav a.router-link-exact-active {
   color: #42b983;
 }
 </style>
+
+<script>
+import Footer from '@/components/Footer.vue'
+export default{
+  components:{
+    Footer
+  }
+}
+</script>
